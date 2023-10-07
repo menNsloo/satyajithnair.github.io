@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import gsap from 'gsap-trial'
+//import gsap from 'gsap-trial'
 //import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 import LogoS from '../../../assets/images/logo-s.png'
 import './index.scss'
@@ -11,7 +11,7 @@ const Logo = () => {
 
   useEffect(() => {
     //gsap.registerPlugin(DrawSVGPlugin)
-
+    /*
     gsap
       .timeline()
       .to(bgRef.current, {
@@ -34,6 +34,7 @@ const Logo = () => {
         duration: 4,
       }
     )
+    */
   }, [])
 
   return (
